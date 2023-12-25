@@ -1,6 +1,6 @@
 # SmoothZoomEx
 
-["SmoothZoom"](https://github.com/AllanChain/firefox-smooth-zoom) firefox extension modified so panning in a webpage is faster.
+["SmoothZoom"](https://github.com/AllanChain/firefox-smooth-zoom) Firefox extension modified so panning in a webpage is faster.
 
 ## Testing
 
