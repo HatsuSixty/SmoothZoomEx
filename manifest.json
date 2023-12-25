@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "SmoothZoomEx",
+    "version": "1.0",
+    "description": "Smooth zoom web page without touchpad, extended.",
+    "icons": {
+        "48": "icons/icon-48.png"
+    },
+    "developer": {
+        "name": "Hatsu Sixty",
+        "url": "https://github.com/HatsuSixty"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "lib/smooth-zoom.js"
+            ]
+        }
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "smooth-zoom-ex@hatsusixty.github.io"
+        }
+    }
+}
